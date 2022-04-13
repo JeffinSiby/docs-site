@@ -15,7 +15,11 @@ Zowe CLI is supported on Windows, Linux, and Mac operating systems. Meet the fol
   
   **Tip:** npm is included with most Node.js installations. Issue the command `npm --version` to check your current version. You can reference the [Node.js release matrix](https://nodejs.org/en/download/releases/) to verify that the versions are compatible.
 
-- **Plug-in client requirements:** If you plan to install plug-ins, review the [Software requirements for CLI plug-ins](./cli-swreqplugins.md). You _must_ meet the client requirements for the Secure Credential Store and IBM Db2 plug-ins prior to installing them.
+- **Secure Credential Store:** On Linux systems, you must install the packages `gnome-keyring` and `libsecret` (or `libsecret-1-0` on Debian and Ubuntu).
+
+  **Note:** For headless Linux or z/Linux systems, see [Configure Secure Credential Store on headless Linux operating systems](../user-guide/cli-configure-scs-on-headless-linux-os.md).
+
+- **Plug-in client requirements:** If you plan to install plug-ins, review the [Software requirements for CLI plug-ins](./cli-swreqplugins.md). You _must_ meet the client requirements for the IBM Db2 plug-in prior to installing it.
 
 ## Host-side requirements
 
